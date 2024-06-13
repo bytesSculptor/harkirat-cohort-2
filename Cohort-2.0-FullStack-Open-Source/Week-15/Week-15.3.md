@@ -61,7 +61,7 @@ To gain a better understanding of Docker commands, it's recommended to perform h
 
 Docker Hub is a public registry where you can store and share Docker images. It allows you to distribute your images to others and also provides a centralized repository for your own images. 
 
-![Untitled](Week%2015%203%20861f4752a875430081e5bff6e9f779d0/Untitled.png)
+![Untitled](Week-15.3/Untitled.png)
 
 **Here's how you can push your Docker images to Docker Hub:**
 
@@ -156,7 +156,7 @@ Docker Compose is a powerful tool that allows you to define and run multi-contai
 
 Before Docker Compose, you would need to manually create networks, volumes, and start containers individually, specifying all the necessary options and configurations. This process could be tedious and error-prone, especially when dealing with multiple containers and their dependencies.
 
-![Untitled](Week%2015%203%20861f4752a875430081e5bff6e9f779d0/Untitled%201.png)
+![Untitled](Week-15.3/Untitled%201.png)
 
 ### **Problem Solved by Docker Compose**
 

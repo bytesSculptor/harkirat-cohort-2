@@ -6,7 +6,7 @@ In this short offline video, Harkirat explains the concept of `Bind Mounts` in D
 
 Bind Mounts are a type of volume in Docker that allows you to bind a directory or file from the host machine to a directory or file inside a Docker container. This means that any changes made to the files or directories on the host machine will be immediately reflected inside the container, and vice versa.
 
-![Untitled](Week%2015%204%20de3d14ec8c6a45b0ab31f42d482dca72/Untitled.png)
+![Untitled](Week-15.4/Untitled.png)
 
 Bind Mounts are particularly useful when you want to share code or configuration files between the host machine and the container, enabling you to develop and test your application in real-time without the need to rebuild the container every time you make changes.
 
@@ -71,7 +71,7 @@ At this point, you may notice that hot reloading is not working. When you make c
 
 This is because the application code inside the container is isolated from the host machine's filesystem. The container has its own filesystem, and changes made on the host machine are not automatically synced with the container.
 
-![Untitled](Week%2015%204%20de3d14ec8c6a45b0ab31f42d482dca72/Untitled%201.png)
+![Untitled](Week-15.4/Untitled%201.png)
 
 # **Solution: Using Bind Mounts**
 

@@ -11,7 +11,7 @@ Docker containers are the building blocks of modern container orchestration plat
 2. **Running Processes in Isolated Environments**:
 Docker containers provide an isolated and self-contained environment for running processes. Each container has its own file system, network stack, and resource allocation, ensuring that applications running within containers are isolated from one another and from the host system. This isolation helps in achieving better security, resource management, and portability for applications.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled.png)
+![Untitled](Week-15.1/Untitled.png)
 
 1. **Starting Projects/Auxiliary Services Locally**:
 Docker simplifies the process of setting up and running development environments locally. Developers can easily spin up containers for their applications, as well as any auxiliary services (such as databases, caching servers, or message queues) required for their projects. This streamlines the development workflow, ensuring consistent environments across different development machines and reducing the "works on my machine" issues.
@@ -20,7 +20,7 @@ Docker containers encapsulate an application and its dependencies, ensuring that
 3. **Efficient Resource Utilization**:
 Docker containers are lightweight and share the host operating system's kernel, resulting in efficient resource utilization compared to traditional virtual machines. This allows for higher density of applications running on the same hardware, leading to better resource utilization and 
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%201.png)
+![Untitled](Week-15.1/Untitled%201.png)
 
 # Containerization
 
@@ -30,7 +30,7 @@ Containerization is a technology that allows you to package and distribute softw
 
 Containers are a way to package an application, along with all its dependencies and libraries, into a single unit that can be run on any machine with a container runtime, such as Docker. They provide an isolated and self-contained environment for running applications, ensuring that the application runs consistently across different environments.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%202.png)
+![Untitled](Week-15.1/Untitled%202.png)
 
 ### **Why containers?**
 
@@ -45,7 +45,7 @@ Containers are a way to package an application, along with all its dependencies 
 3. **Local Setup Simplification**: Containers make it easy to set up and run projects locally, regardless of the operating system or environment, ensuring a consistent development experience.
 4. **Auxiliary Services and Databases**: Containers simplify the installation and management of auxiliary services and databases required for your projects, such as MongoDB, PostgreSQL, or Redis.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%203.png)
+![Untitled](Week-15.1/Untitled%203.png)
 
 **Example: Running MongoDB in a Container**
 
@@ -76,7 +76,7 @@ Docker was founded in 2008 as a platform-as-a-service (PaaS) company called dotC
 
 Initially, dotCloud focused on providing a PaaS solution for developers to build and deploy applications. However, during the development process, the team realized the potential of the underlying container technology they were using, which later became known as Docker.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%204.png)
+![Untitled](Week-15.1/Untitled%204.png)
 
 Docker's vision was to make containers mainstream and enable developers to easily deploy their applications using containers. This vision has largely become a reality today, as many projects on GitHub now include Dockerfiles, which are files used to create Docker containers for packaging and deploying applications.
 
@@ -86,7 +86,7 @@ Today, Docker is a leading player in the container ecosystem, providing tools an
 
 Docker provides official installation instructions for various operating systems, including Windows, macOS, and different Linux distributions. You can find the installation guide for your specific operating system on the official Docker documentation website: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%205.png)
+![Untitled](Week-15.1/Untitled%205.png)
 
 Here are the general steps to install Docker:
 
@@ -107,7 +107,7 @@ Once you have Docker installed, you can run Docker commands using the `docker` C
 - `docker images`: Lists the Docker images available on your local system.
 - `docker ps`: Lists the currently running Docker containers.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%206.png)
+![Untitled](Week-15.1/Untitled%206.png)
 
 By following the official installation instructions and verifying that you can run the Docker CLI, you'll be ready to start working with Docker containers on your local machine.
 
@@ -129,7 +129,7 @@ The Docker CLI is a command-line interface that allows you to interact with the 
     
     It's important to note that the Docker CLI is not the only way to interact with the Docker Engine. You can also use the Docker REST API to perform the same operations programmatically.
     
-    ![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%207.png)
+    ![Untitled](Week-15.1/Untitled%207.png)
     
 3. **Docker Registry**:
 The Docker Registry is a service that stores and distributes Docker images. It acts as a central repository where you can push and pull Docker images.
@@ -156,7 +156,7 @@ A good mental model for understanding a Docker image is to think of it as your c
 
 Docker images are built from a set of instructions called a Dockerfile. The Dockerfile specifies the steps to create the image, such as installing dependencies, copying files, and setting environment variables.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%208.png)
+![Untitled](Week-15.1/Untitled%208.png)
 
 ### **Docker Container**
 
@@ -193,7 +193,7 @@ The command `docker run -d -p 27018:27017 mongo` is used to run a MongoDB contai
     
 4. `mongo`: This is the name of the Docker image from which the container will be created. In this case, it's the official MongoDB image from Docker Hub.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%209.png)
+![Untitled](Week-15.1/Untitled%209.png)
 
 When you run this command, Docker will pull the `mongo` image (if it's not already present on your machine), create a new container from that image, and start the MongoDB server inside the container. The container's port `27017` will be mapped to the host's port `27018`.
 
@@ -280,7 +280,7 @@ This command is used to push a Docker image to a remote registry, such as Docker
 
 A Dockerfile is a text document that contains a set of instructions for building a Docker image. It specifies the base image to start from and the steps required to create the desired environment for your application, such as installing dependencies, copying files, and setting environment variables.
 
-![Untitled](Week%2015%201%20c5dbe7e2adfa4aeea598f9d1842f187d/Untitled%2010.png)
+![Untitled](Week-15.1/Untitled%2010.png)
 
 ### **How to Write a Dockerfile**
 
