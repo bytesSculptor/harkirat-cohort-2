@@ -10,7 +10,7 @@ In this session, Laisha delves into the `Document Object Model (DOM)`, demystify
 
 You know how a remote control brings a television to life by letting you change channels and do cool things? Well, in the web world, JavaScript is like that remote control for your HTML page, making it active and dynamic. And the secret sauce behind this magic is the DOM – the Document Object Model.
 
-![Untitled](Week%203%205%201adf21321f4345c8bed86949da69ed5c/Untitled.png)
+![Untitled](Week-3.5/Untitled.png)
 
 ## **What is DOM?**
 
