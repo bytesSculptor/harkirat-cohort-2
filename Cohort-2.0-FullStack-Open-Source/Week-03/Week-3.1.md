@@ -2,7 +2,7 @@
 
 # Middlewares, Global Catches & Zod
 
-**In this lecture, Harkirat dives deep into** `M**iddlewares:`** behind-the-scenes helpers that tidy up things before your main code does its thing. `G**lobal catches:**` safety nets for your code, they catch unexpected issues before they cause chaos. And finally, `Zod:` a library that ensures efficient input validation on your behalf.
+In this lecture, Harkirat dives deep into **`Middlewares:`** behind-the-scenes helpers that tidy up things before your main code does its thing. **`Global catches:`** safety nets for your code, they catch unexpected issues before they cause chaos. And finally, `Zod:` a library that ensures efficient input validation on your behalf.
 
 ![Untitled](Week-3.1/Untitled.png)
 
