@@ -1,4 +1,5 @@
-# Week 01
+# Week 01   
+[Week-2](./Week-02.md)
 
 # How to setup the assignments repo locally and run the test cases?
 
