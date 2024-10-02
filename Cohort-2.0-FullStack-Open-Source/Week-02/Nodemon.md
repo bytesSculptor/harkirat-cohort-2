@@ -23,3 +23,5 @@ nodemon server.js
 ```
 
 - With Nodemon, you can focus on your code, and the tool will take care of restarting your server whenever you make changes, making the development process smoother.
+
+[Get&Post.md](./Get&Post.md)
