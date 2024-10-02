@@ -73,3 +73,4 @@ npm i npm -g
 ```
 
 CHECK THE CURRENT DIRECTORY IT SHOULD BE 01-js
+[Week-2](./Week-02.md)
