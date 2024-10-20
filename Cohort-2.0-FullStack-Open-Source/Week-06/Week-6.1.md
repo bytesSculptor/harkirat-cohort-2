@@ -10,7 +10,7 @@ In React, a component can only return a single root element, commonly wrapped in
 
 ## Problem Statement
 
-![Untitled](Week%206%201%20a16665aab1e245b39cca51f35d47a9a9/Untitled.png)
+![Untitled](Week-6.1/Untitled.png)
 
 One of the most prominent reasons for it is `Reconciliation`. The single-root element rule in React facilitates the `reconciliation` process, where React efficiently updates the real DOM based on changes in the virtual DOM. By having a single root element, React can easily perform the comparison between the previous and current states of the `virtual DOM`.
 
@@ -25,7 +25,7 @@ In addition to reconciliation, it aids in maintaining a straightforward and pred
 
 ## Solution
 
-![Untitled](Week%206%201%20a16665aab1e245b39cca51f35d47a9a9/Untitled%201.png)
+![Untitled](Week-6.1/Untitled%201.png)
 
 ```jsx
 const MyComponent = () => {
@@ -128,7 +128,7 @@ There are broadly 2 ways of minimizing the amount of rerenders
 
 When state is kept at a higher level in the component tree, any changes to that state can trigger re-renders for all child components, even if they don't directly use or depend on that particular piece of state. However, by `pushing the state down` and ensuring that each component only has access to the state it needs, you can minimize the impact of state changes on the overall component tree.
 
-![Untitled](Week%206%201%20a16665aab1e245b39cca51f35d47a9a9/Untitled%202.png)
+![Untitled](Week-6.1/Untitled%202.png)
 
 > For example, if a specific piece of state is only relevant to a small portion of your application, keeping that state localized to the components in that section prevents unnecessary re-renders elsewhere. This practice contributes to a more efficient and performant React application.
 > 
@@ -139,7 +139,7 @@ The above problem of reducing the number of rerenders can also be tackled using 
 
 In the context of minimizing re-renders, **`useMemo`** is often employed to memoize the results of computations derived from state or props. By doing so, you can ensure that the expensive computation is only performed when the dependencies (specified as the second argument to **`useMemo`**) change.
 
-![Untitled](Week%206%201%20a16665aab1e245b39cca51f35d47a9a9/Untitled%203.png)
+![Untitled](Week-6.1/Untitled%203.png)
 
 > By using **`useMemo`**, you can strategically memoize computations to optimize performance and minimize the impact of re-renders in React.
 > 
@@ -315,7 +315,7 @@ Some commonly used React Hooks are: `useEffect`, `useMemo`, `useCallback`,  `use
 
 `useEffect` is a React Hook used for performing side effects in functional components. It is often used for tasks such as data fetching, subscriptions, or manually changing the DOM. The `useEffect` hook accepts two arguments: a function that contains the code to execute, and an optional array of dependencies that determines when the effect should run.
 
-![Untitled](Week%206%201%20a16665aab1e245b39cca51f35d47a9a9/Untitled%204.png)
+![Untitled](Week-6.1/Untitled%204.png)
 
 Here's an example of how to use `useEffect`:
 
