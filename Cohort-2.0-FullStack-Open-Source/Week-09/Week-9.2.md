@@ -72,7 +72,7 @@ JavaScript is a powerful and widely used programming language, but it has a dyna
 
 In response to these challenges, Microsoft introduced TypeScript, a superset of JavaScript that adds static typing to the language. TypeScript is designed to address some of the limitations of JavaScript by providing developers with a more robust type system. 
 
-![Untitled](Week%209%202%2080ceeaeb573c4544bd66aa4f0299e28a/Untitled.png)
+![Untitled](Week-9.2/Untitled.png)
 
 ## How Typescript
 
@@ -127,7 +127,7 @@ TypeScript code doesn't run natively in browsers or JavaScript environments. Ins
 1. **Interacting with the DOM (Browser Environments):**
     - In browser environments, the JavaScript code, generated from TypeScript, may interact with the Document Object Model (DOM) to manipulate web page structure and behavior.
 
-![Untitled](Week%209%202%2080ceeaeb573c4544bd66aa4f0299e28a/Untitled%201.png)
+![Untitled](Week-9.2/Untitled%201.png)
 
 # **TypeScript Compiler (`tsc`)**
 

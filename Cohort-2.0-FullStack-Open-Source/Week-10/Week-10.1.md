@@ -17,7 +17,7 @@ We further look into the process of `creating our first PostgreSQL database`, ex
 
 Databases are an essential component of many applications, serving as the backbone for data storage and retrieval. There are several types of databases, each designed to serve specific use cases and data management needs. Below is an elaboration on the types of databases:
 
-![Untitled](Week%2010%201%20c20c4b402f5449bdaddf26aa46378eb5/Untitled.png)
+![Untitled](Week-10.1/Untitled.png)
 
 ## **NoSQL Databases**
 
@@ -26,7 +26,7 @@ Databases are an essential component of many applications, serving as the backbo
 - **Use Cases**: Ideal for big data applications, real-time web apps, and for handling large volumes of data that may not fit neatly into a relational model.
 - **Examples**: MongoDB, Cassandra, Redis, Couchbase.
 
-![Untitled](Week%2010%201%20c20c4b402f5449bdaddf26aa46378eb5/Untitled%201.png)
+![Untitled](Week-10.1/Untitled%201.png)
 
 ## **Graph Databases**
 
@@ -35,7 +35,7 @@ Databases are an essential component of many applications, serving as the backbo
 - **Use Cases**: Particularly useful for social networks, recommendation engines, fraud detection, and any domain where relationships are key.
 - **Examples**: Neo4j, Amazon Neptune, OrientDB.
 
-![Untitled](Week%2010%201%20c20c4b402f5449bdaddf26aa46378eb5/Untitled%202.png)
+![Untitled](Week-10.1/Untitled%202.png)
 
 ## **Vector Databases**
 
@@ -44,7 +44,7 @@ Databases are an essential component of many applications, serving as the backbo
 - **Use Cases**: Useful in machine learning applications, such as image recognition, natural language processing, and recommendation systems.
 - **Examples**: Pinecone, Milvus, Faiss.
 
-![Untitled](Week%2010%201%20c20c4b402f5449bdaddf26aa46378eb5/Untitled%203.png)
+![Untitled](Week-10.1/Untitled%203.png)
 
 ## **SQL Databases**
 
@@ -53,7 +53,7 @@ Databases are an essential component of many applications, serving as the backbo
 - **Use Cases**: Most full-stack applications use SQL databases for their ability to maintain ACID (Atomicity, Consistency, Isolation, Durability) properties, ensuring reliable transaction processing.
 - **Examples**: MySQL, PostgreSQL, Oracle, SQL Server.
 
-![Untitled](Week%2010%201%20c20c4b402f5449bdaddf26aa46378eb5/Untitled%204.png)
+![Untitled](Week-10.1/Untitled%204.png)
 
 # **Why Not NoSQL**
 
@@ -75,7 +75,7 @@ While NoSQL databases like MongoDB offer significant advantages, particularly in
 - **Speed**: Developers can iterate quickly without being constrained by a rigid database schema. This is particularly useful in the early stages of a project or when requirements are rapidly evolving.
 - **Schema Evolution**: It's easier to adapt to changes in the application's data requirements, as there's no need to perform complex migrations or updates to the database schema.
 
-![Untitled](Week%2010%201%20c20c4b402f5449bdaddf26aa46378eb5/Untitled%205.png)
+![Untitled](Week-10.1/Untitled%205.png)
 
 ## **Mongoose and Schema Enforcement**
 

@@ -10,7 +10,7 @@ The session later explores the use of Prisma with various databases, the functio
 
 Object-Relational Mapping (ORM) is a crucial concept in modern software development, particularly when dealing with databases in object-oriented programming languages. Prisma is an ORM that exemplifies the use of this technique. Here's an elaboration on ORMs, with a focus on how Prisma fits into this context:
 
-![Untitled](Week%2010%202%205bb9567a68f24f0ca1d9f6463a1aea20/Untitled.png)
+![Untitled](Week-10.2/Untitled.png)
 
 ### **What are ORMs?**
 
@@ -128,7 +128,7 @@ Applying migrations is handled by Prisma Migrate when you run the above command,
 
 Prisma is a next-generation ORM (Object-Relational Mapping) tool for Node.js and TypeScript applications. It simplifies database workflows by providing a robust set of features that enhance developer productivity and code quality. Let's delve into the core components that make Prisma a powerful tool for modern application development.
 
-![Untitled](Week%2010%202%205bb9567a68f24f0ca1d9f6463a1aea20/Untitled%201.png)
+![Untitled](Week-10.2/Untitled%201.png)
 
 ### 1. Data Model
 
@@ -205,7 +205,7 @@ Prisma's integration with code editors (such as VSCode) provides auto-completion
 **Auto-Completion Example**:
 When writing queries with Prisma Client, your editor can suggest model fields, available methods, and more, based on the Prisma schema.
 
-![Untitled](Week%2010%202%205bb9567a68f24f0ca1d9f6463a1aea20/Untitled%202.png)
+![Untitled](Week-10.2/Untitled%202.png)
 
 # Installing Prisma
 
@@ -273,7 +273,7 @@ Initialize Prisma in your project:
 npx prisma init
 ```
 
-![Untitled](Week%2010%202%205bb9567a68f24f0ca1d9f6463a1aea20/Untitled%203.png)
+![Untitled](Week-10.2/Untitled%203.png)
 
 This command performs several actions:
 

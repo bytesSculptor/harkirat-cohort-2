@@ -26,7 +26,7 @@ In React and other frontend frameworks, there are various methods to manage stat
 > The choice of state management method depends on the complexity and requirements of the application. Effective state management enhances the predictability, maintainability, and scalability of the application, ensuring a smooth and responsive user experience.
 > 
 
-![Untitled](Week%207%202%204d312a24f45f461394af76747f53b5dd/Untitled.png)
+![Untitled](Week-7.2/Untitled.png)
 
 # Problem with Context API
 

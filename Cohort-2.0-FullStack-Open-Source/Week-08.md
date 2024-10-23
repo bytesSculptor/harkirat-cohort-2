@@ -1,9 +1,9 @@
 # Week 08
 
-[Week 8.1 ](Week%2008%20868b977c16f14ac3b3c63876370cad7d/Week%208%201%2054038a40c3c74b0ca115240e9d3f75a2.md)
+[Week 8.1 ](Week-08/Week-8.1.md)
 
-[Week 8.2](Week%2008%20868b977c16f14ac3b3c63876370cad7d/Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e.md)
+[Week 8.2](Week-08/Week-8.2.md)
 
-[Week 8.3 ](Week%2008%20868b977c16f14ac3b3c63876370cad7d/Week%208%203%2090596782daee415a921f55a318aa30ae.md)
+[Week 8.3 ](Week-08/Week-8.3.md)
 
-[Week 8.4 ](Week%2008%20868b977c16f14ac3b3c63876370cad7d/Week%208%204%2064c364ca15ed41dd9b0dc24d92b018e5.md)
+[Week 8.4 ](Week-08/Week-8.4.md)

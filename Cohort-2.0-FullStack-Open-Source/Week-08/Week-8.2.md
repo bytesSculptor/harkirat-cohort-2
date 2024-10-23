@@ -11,7 +11,7 @@ In this lecture, Harkirat guides us through an `end-to-end tutorial` on building
 
 We’re building a PayTM like application that let’s users send money to each other given an initial dummy balance
 
-![Untitled](Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e/Untitled.png)
+![Untitled](Week-8.2/Untitled.png)
 
 ### **Things to do**
 
@@ -1251,7 +1251,7 @@ module.exports = router;
 
 ## Error
 
-![Untitled](Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e/Untitled%201.png)
+![Untitled](Week-8.2/Untitled%201.png)
 
 # **Step 14 - Checkpoint your solution**
 
@@ -1261,18 +1261,18 @@ Try to send a few calls via postman to ensure you are able to sign up/sign in/ge
 
 ### **Get balance**
 
-![Untitled](Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e/Untitled%202.png)
+![Untitled](Week-8.2/Untitled%202.png)
 
 ### **Make transfer**
 
-![Untitled](Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e/Untitled%203.png)
+![Untitled](Week-8.2/Untitled%203.png)
 
 ### **Get balance again (notice it went down)**
 
-![Untitled](Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e/Untitled%204.png)
+![Untitled](Week-8.2/Untitled%204.png)
 
 ### **Mongo should look something like this**
 
-![Untitled](Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e/Untitled%205.png)
+![Untitled](Week-8.2/Untitled%205.png)
 
-![Untitled](Week%208%202%20bccabbb6803a4e609ab21d300e61cf4e/Untitled%206.png)
+![Untitled](Week-8.2/Untitled%206.png)

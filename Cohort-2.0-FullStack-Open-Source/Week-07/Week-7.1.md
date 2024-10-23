@@ -4,7 +4,7 @@
 
 In this lecture, Harkirat covers key concepts in React development, specifically focusing on routing, prop drilling, and the Context API. `Routing` is vital for managing navigation in React applications, while `prop drilling` and the `Context API` address challenges related to passing data between components. These insights provide essential knowledge for building well-organized and effective React projects.
 
-![Untitled](Week%207%201%209d78ad9bc1b240a984f8e5f2d259c5a1/Untitled.png)
+![Untitled](Week-7.1/Untitled.png)
 
 # React Routing
 
