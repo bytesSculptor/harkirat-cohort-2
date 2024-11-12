@@ -277,3 +277,8 @@ export default App;
 Make sure to adjust your project's entry point to use `App.js`.
 
 Now, your Recoil-powered React application should render a counter with increase and decrease buttons. The message "It is EVEN" will be displayed when the count is an even number.
+
+
+---
+
+Next week -> [Week-08](../Week-08.md)

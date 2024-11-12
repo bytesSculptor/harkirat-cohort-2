@@ -23,3 +23,8 @@ Select the HTTP option and hit enter
 ![Screenshot 2023-12-11 000659.png](Postman/Screenshot_2023-12-11_000659.png)
 
 Place the URL where your server is running, in our case, it is [http://localhost:3000/](http://localhost:3000/). Select the appropriate method, which, in our case, is GET, and click the SEND button. You will receive the response, similar to what is shown above.
+
+
+---
+
+Next week - [Week-03][Week-03](../Week-03.md)

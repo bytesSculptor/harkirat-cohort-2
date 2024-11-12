@@ -82,3 +82,8 @@ In an Express.js application, you send a response back to the client using the *
     
 
 These examples showcase various ways to send responses back to the client based on different scenarios. The **`res`** object provides a versatile set of methods to handle a wide range of response types. Depending on the use case, you can choose the appropriate method to send the desired response to the client.
+
+
+--- 
+
+[Serving Routes](./Serving-Routes.md)

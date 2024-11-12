@@ -850,3 +850,8 @@ In this example, event listeners are attached without specifying `useCapture` or
 When you click on the "Inner" div, you'll see in the console that the bubbling phase event handlers are triggered in the order: Inner Bubbling, Middle Bubbling, Outer Bubbling.
 
 In practice, event bubbling is more commonly used, and the `useCapture` parameter is often omitted or set to `false` when attaching event listeners. Event capturing is less commonly used and is mainly applicable in specific scenarios where capturing is explicitly needed.
+
+
+
+---
+Next week -> [Week-04](../Week-04.md)

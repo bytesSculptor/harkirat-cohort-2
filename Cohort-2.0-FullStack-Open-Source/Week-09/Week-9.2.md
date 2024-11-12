@@ -925,3 +925,7 @@ const teamLead: TeamLead = {
 
 > In summary, choose types for flexibility and advanced type features, and use interfaces for object shapes, contracts, and class implementations, ensuring a consistent and readable codebase.
 >
+
+---
+
+Next week -> [Week-10](../Week-10.md)

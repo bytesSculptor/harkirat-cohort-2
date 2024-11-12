@@ -204,5 +204,6 @@ In summary, promises provide a cleaner and more organized way to work with async
 
  Promises are essential for handling asynchronous code in a clean and readable way, especially when working with features like fetching data from a server, handling events, or working with timers.
 
+---
 
 [Express-Server](./Express-Server.md)

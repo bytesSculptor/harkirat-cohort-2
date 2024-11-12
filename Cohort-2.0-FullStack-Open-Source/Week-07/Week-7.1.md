@@ -575,3 +575,9 @@ Recoil, Redux, and Context API are all solutions for managing state in React app
 - **Use Context API for Simplicity:** For simpler state management needs, especially in smaller applications or when simplicity is a priority.
 - **Consider Recoil for Advanced Features:** When advanced state management features, like selectors and performance optimizations, are needed.
 - **Opt for Redux for Scalability:** In larger applications where scalability, middleware, and a broader ecosystem are important factors.
+
+
+---
+
+
+[Week-7.2](./Week-7.2.md)

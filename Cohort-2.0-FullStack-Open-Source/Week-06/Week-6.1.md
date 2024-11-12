@@ -370,3 +370,7 @@ In this example:
 
 > `useEffect` is a powerful tool for managing side effects in React components, providing a clean way to handle asynchronous operations and component lifecycle events.
 >
+
+---
+
+[Week6.2](./Week-6.2.md)

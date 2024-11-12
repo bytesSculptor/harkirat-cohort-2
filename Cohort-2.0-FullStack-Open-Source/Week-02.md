@@ -1,5 +1,5 @@
 # Week 02
-[Week-1](./Week-01.md) &emsp; [Week-03](./Week-03.md)
+[Week-1](./Week-01.md)
 
 # NodeJS and ExpressJS concepts
 
@@ -26,3 +26,7 @@
 [JSON Response](Week-02/JSON-Response.md)
 
 [Postman](Week-02/Postman.md)
+
+---
+
+[Week-03](./Week-03.md)

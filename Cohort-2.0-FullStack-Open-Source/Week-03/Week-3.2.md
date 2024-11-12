@@ -695,3 +695,8 @@ In summary, while Express sets up the server, JWT helps with user authentication
 ## Mongoose
 
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a higher-level, schema-based abstraction over the MongoDB JavaScript driver. Mongoose acts as a powerful bridge between Node.js applications and MongoDB databases. It streamlines the data modeling process, simplifies interactions with the database, and enhances the overall development experience when working with MongoDB in a Node.js environment.
+
+
+---
+
+[Week 3.5](./Week-3.5.md)

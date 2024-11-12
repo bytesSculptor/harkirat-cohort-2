@@ -326,3 +326,8 @@ export default App;
 > 
 
 # Notes Under Progress —will be updated soon!
+
+
+---
+
+Next week -> [Week-07](../Week-07.md)

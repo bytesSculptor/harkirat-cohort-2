@@ -238,3 +238,9 @@ export default ChildComponent;
 ```
 
 In this example, **`ParentComponent`** passes the message "Hello from Parent!" to **`ChildComponent`** as a prop. The child component then displays this message. Props facilitate communication between components, making it easy to create modular and reusable React applications.
+
+
+
+---
+
+[Week-5.2](./Week-5.2.md)

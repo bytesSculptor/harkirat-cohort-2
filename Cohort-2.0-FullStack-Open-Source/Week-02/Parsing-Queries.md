@@ -30,3 +30,7 @@ app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
 ```
+
+
+---
+[JSON Response](./JSON-Response.md)

@@ -614,3 +614,9 @@ import { Client } from 'pg';
 
 > This demonstrates how to set up a TypeScript project for a Node.js application that interacts with a PostgreSQL database using the `pg` library. By using parameterized queries, you can securely insert and fetch data, protecting your application from SQL injection attacks.
 >
+
+
+
+---
+
+[Week 10.2](./Week-10.2.md)

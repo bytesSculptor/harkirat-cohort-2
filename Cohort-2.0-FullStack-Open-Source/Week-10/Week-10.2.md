@@ -697,3 +697,10 @@ Here's a breakdown of the key components:
 - **Awaiting the Promise**: The `await` keyword is used to wait for the promise returned by `prisma.user.findFirst()` to resolve. This is necessary because database operations are asynchronous.
 - **Logging the Result**: The result of the fetch operation (the user record) is stored in the `user` variable and then logged to the console.
 - **Executing the Function**: The function is called with a sample `username` of "admin1". In a real application, this value would likely come from user input, such as a login form or a search query.
+
+
+
+---
+
+
+Next week -> [Week-11](../Week-11.md)

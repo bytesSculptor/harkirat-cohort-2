@@ -451,3 +451,7 @@ The following example demonstrates debouncing in the `onInput` event to delay th
 - Throttling focuses on action frequency; rate limiting focuses on request count.
 - Throttling can be applied to various actions; rate limiting is often used at the API level.
 - Throttling aims for a smooth user experience; rate limiting protects server resources and enforces fairness.
+
+
+---
+[Week-4.2](./Week-4.2.md)

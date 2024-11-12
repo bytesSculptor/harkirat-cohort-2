@@ -1,5 +1,4 @@
-# Week 01   
-[Week-2](./Week-02.md)
+# Week 01
 
 # How to setup the assignments repo locally and run the test cases?
 
@@ -73,4 +72,7 @@ npm i npm -g
 ```
 
 CHECK THE CURRENT DIRECTORY IT SHOULD BE 01-js
+
+---
+
 [Week-2](./Week-02.md)

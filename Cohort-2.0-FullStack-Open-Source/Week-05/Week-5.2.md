@@ -47,3 +47,8 @@ Up until now, our discussions have primarily revolved around theoretical concept
 
 > By following these steps, you'll gain practical insights into building a MERN stack application with Zod integration, ensuring both frontend and backend components work seamlessly.
 >
+
+
+---
+
+Next week -> [Week-06](../Week-06.md)

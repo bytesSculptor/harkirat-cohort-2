@@ -317,3 +317,8 @@ In this example, the `text-lg` class sets the text size to large by default, whi
 
 - **CSS:** In CSS, hover effects are applied by using the `:hover` pseudo-class. In the example, the background color of a button changes when hovered over.
 - **Tailwind CSS:** Tailwind simplifies hover effects by providing utility classes like `hover:bg-red-700`. This class is applied when the element is hovered over, changing the background color.
+
+
+---
+
+[Week-8.2](./Week-8.2.md)

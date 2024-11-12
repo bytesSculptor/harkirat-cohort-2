@@ -333,3 +333,8 @@ Zod is a TypeScript-first schema declaration and validation library. It provides
 - **Rich Set of Features:** Zod includes a variety of features, such as custom validation, optional and nullable types, union and intersection types, making it a powerful tool for data validation in your applications.
 
 Overall, Zod simplifies the process of declaring and validating data structures, reducing the likelihood of runtime errors and improving the overall robustness of your code.
+
+
+---
+
+[Week 3.2](./Week-3.2.md)
