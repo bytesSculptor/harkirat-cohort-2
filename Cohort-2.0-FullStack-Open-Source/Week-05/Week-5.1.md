@@ -30,6 +30,8 @@ In React, there is a virtual DOM and a real DOM.
 
 > In summary, while there are two representations—virtual DOM and real DOM—React abstracts the complexity of direct manipulation of the real DOM by using a virtual DOM and efficiently updating only the parts that have changed. This approach contributes to React's efficiency and performance in managing UI updates.
 > 
+> In simple terms, React uses two versions of the DOM: the real DOM and the virtual DOM. The virtual DOM is a copy of the real DOM, and React helps by updating only the parts that need to change, rather than updating everything. This makes React faster and more efficient at handling updates to the user interface.
+> 
 
 # Some React Jargon
 
